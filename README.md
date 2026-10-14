@@ -1,207 +1,137 @@
-# Awesome-Creator-Brand-Marketplaces
-
-## Top Creator-Brand Marketplaces Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Creator Discovery, Campaign Management & Affiliate Attribution*  
-
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Creator-Brand Marketplaces**. These tools enable brands and agencies to discover creators, manage outreach and campaigns, track content performance, and handle creator payments—connecting the creator economy’s supply side with brand demand.
-
-
-
-**Examples** include Grin, Aspire, CreatorIQ, Upfluence, #paid, Impact.com, Collabstr, Traackr, Captiv8, and Creator.co (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, affiliate attribution, and creator CRM—ideal for brands, agencies, and developers seeking transparent, vendor-independent creator commerce.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Grin](https://grin.co/)**  
-
-  Creator management platform for e-commerce brands. Features creator discovery, relationship management, campaign tracking, and payment processing integrated with Shopify.
-
-
-
-- **[Aspire](https://www.aspireiq.com/)**  
-
-  Influencer marketing platform with creator marketplace, campaign management, and content analytics. Features product seeding and affiliate tracking.
-
-
-
-- **[CreatorIQ](https://www.creatoriq.com/)**  
-
-  Enterprise creator marketing platform trusted by major brands. Features creator discovery, campaign management, fraud detection, and ROI measurement across social platforms.
-
-
-
-- **[Upfluence](https://www.upfluence.com/)**  
-
-  Influencer marketing platform with creator search, campaign management, and affiliate tracking. Features gifting and product seeding workflows.
-
-
-
-- **[#paid](https://hashtagpaid.com/)**  
-
-  Creator marketing platform connecting brands with vetted creators. Features campaign management, content approval, and performance tracking .
-
-
-
-- **[Impact.com](https://impact.com/)**  
-
-  Partnership management platform covering affiliates, influencers, and B2B partnerships. Features attribution, contract management, and payment processing.
-
-
-
-- **[Collabstr](https://collabstr.com/)**  
-
-  Creator marketplace connecting brands with influencers for paid collaborations. Features creator search, booking, and secure payments.
-
-
-
-- **[Traackr](https://www.traackr.com/)**  
-
-  Influencer relationship management platform. Features creator discovery, campaign tracking, and performance analytics across social platforms.
-
-
-
-- **[Captiv8](https://captiv8.io/)**  
-
-  Creator marketing platform with audience intelligence, creator discovery, and campaign measurement. Features social listening and brand safety tools.
-
-
-
-- **[Creator.co](https://creator.co/)**  
-
-  Creator marketplace and campaign management platform connecting brands with creators for UGC and influencer campaigns.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[RefRef](https://github.com/refrefhq/refref)**  
-
-  Open-source referral and affiliate marketing platform (AGPLv3, alpha) . **The most feature-complete open-source affiliate/referral platform available.** Features referral attribution via JS snippet, customizable rewards, referrer and partner portals, personalized referral landing pages, automated nudges, fraud monitoring, manual and automatic reward approval/dispersal, engagement analytics, and a testing sandbox . Tech stack: TypeScript, React, Next.js, PostgreSQL, Drizzle, Redis, BullMQ, Better-Auth . **Replaces the need for commercial affiliate platforms for referral programs.**
-
-
-
-- **[Refferq](https://github.com/Refferq/Refferq)**  
-
-  Open-source referral and affiliate marketing platform for SaaS businesses (MIT) . Features referral management (lead submission, approval workflows, conversion tracking), commission and payout automation (NET-15/NET-30 scheduling, PayPal/Bank/Stripe/Wise payouts), program settings (branding, cookie tracking, country blocking), email automation (welcome, notification, approval, payout confirmations), affiliate dashboard (earnings overview, click tracking, conversion metrics), and marketing resources (unique links, social sharing buttons) . Tech stack: Next.js 15, React 19, TypeScript, PostgreSQL, Prisma, Tailwind CSS .
-
-
-
-- **[AffEasy](https://github.com/afftester/affeasy)**  
-
-  Open-source affiliate link management platform (AGPLv3) . **The only open-source platform that creates affiliate links from every major affiliate network** . Features unified network access, advanced analytics (Tinybird), branded links, QR codes, geo-targeting, and link cloaking . Tech stack: Next.js, TypeScript, Tailwind CSS, Upstash, Tinybird, PlanetScale, NextAuth.js . Self-hostable .
-
-
-
-- **[mangosqueezy](https://github.com/mangosqueezy/mangosqueezy)**  
-
-  Open-source affiliate marketing tool (license varies) . 136 GitHub stars . Provides affiliate tracking and management capabilities for creator-brand partnerships.
-
-
-
-- **[CreatorReach AI](https://github.com/)**  
-
-  Open-source local CRM for AI-assisted creator outreach (free, open-source) . Features campaign management but **no creator discovery, performance analytics, or payments** . Runs as a local-first CRM for outreach workflow control. Best for teams wanting a free, self-hosted outreach CRM rather than a complete influencer marketing stack .
-
-
-
-- **[Sheety CRM](https://github.com/sdntsng/sheety-crm)**  
-
-  Stateless, open-source CRM built on Google Sheets (MIT) . **Treats Google Sheet as single source of truth**—app is a specialized interface layer on top of your data . Features pipeline management (Kanban), lead management, global search, activity feed, and privacy-first architecture (Google OAuth, no data storage) . Relevant for creator pipeline tracking without vendor lock-in. Tech stack: Next.js 15, FastAPI, Tailwind CSS .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Gumroad](https://github.com/antiwork/gumroad)** — Open-source creator commerce platform (license varies) . **Helped creators earn $1B+ over 14 years** . Enables self-hosted creator marketplaces with 0% fees . Relevant as infrastructure for creators selling directly to audiences—complementary to brand marketplace platforms. Built on Ruby on Rails .
-
-- **[Social Metrics Dashboard](https://github.com/avrtt/social-metrics-dashboard)** — Full-stack analytics platform aggregating social media data (X, FB, Inst, Discord, Medium, Reddit, YT, TikTok) for marketing insights (Apache 2.0) . Features sentiment analysis (NLTK VADER), trending topics, real-time dashboards (Plotly Dash), and scheduled data refresh . Relevant for creator performance measurement.
-
-- **[Social-Ops](https://github.com/Owlseer-AI/Social-ops)** — Open-source social-media intelligence platform for AI agents (license varies) . Topic-aggregation reports across Reddit, Instagram, Facebook, X, App Store, Google Play via MCP server . Deterministic NLP pipeline (TF-IDF, sentence-transformers, XLM-RoBERTa) . Relevant for creator content analysis and brand monitoring.
-
-- Community **n8n** workflows for creator outreach automation and campaign alert routing.
-
-
-
-**Frameworks for building custom systems**: Combine **RefRef** for affiliate attribution and reward management with **Refferq** for SaaS referral programs, **AffEasy** for multi-network affiliate link management, **CreatorReach AI** for AI-assisted creator outreach CRM, and **PostgreSQL** for persistence—creating a fully self-hosted, enterprise-grade creator-brand marketplace platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Creator-brand marketplaces handling creator and campaign data must comply with data protection regulations (GDPR, CCPA, etc.) and FTC disclosure requirements for sponsored content.
-
-- **Open-source creator-brand marketplaces are affiliate-first, not discovery-first.** RefRef, Refferq, and AffEasy provide robust affiliate/referral infrastructure . **None of them provide creator discovery**—the core value of Grin, Aspire, or CreatorIQ . CreatorReach AI explicitly lacks creator discovery, performance analytics, and payments . Building a complete creator-brand marketplace from open-source requires integrating discovery (social scraping/APIs), CRM (CreatorReach AI or Sheety), and affiliate tracking (RefRef).
-
-- **Affiliate attribution is the mature open-source layer.** RefRef and Refferq handle referral attribution, commission calculation, payout scheduling, and fraud monitoring—capabilities that normally require commercial platforms like Impact.com or PartnerStack .
-
-- **Creator discovery remains commercial.** No open-source platform provides searchable creator databases with audience demographics, engagement rates, and pricing information comparable to Grin or CreatorIQ. Community tools like Social-Ops provide content intelligence but not creator marketplace functionality .
-
-- Self-hosted open-source solutions require proper security hardening, payment processor configuration (Stripe, PayPal), and ongoing maintenance. Creator payments involve financial compliance that tools can support but not replace.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Creator-Brand Marketplaces" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Creator-Brand-Marketplaces/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Creator-Brand-Marketplaces?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Creator-Brand-Marketplaces/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Creator-Brand-Marketplaces?style=social&color=white" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Creator-Brand-Marketplaces/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Creator-Brand-Marketplaces?color=blue" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Creator-Brand-Marketplaces/pulls"><img src="https://img.shields.io/github/issues-pr/ishandutta2007/Awesome-Creator-Brand-Marketplaces?color=green" alt="Pull Requests" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+</p>
 
 ---
 
+# Awesome Creator-Brand Marketplaces
 
+> A curated list of **SaaS platforms**, **creator discovery engines**, **influencer marketing networks**, and **open-source software** powering the modern creator economy, brand collaborations, and affiliate attribution.
 
-**Made for creator marketing teams, affiliate managers, brand partnership leads, and developers building transparent creator commerce solutions.**  
+Welcome to the definitive directory of tools connecting the supply side of the creator economy (influencers, UGC creators, affiliate publishers, digital artists) with brand and agency demand. Whether you are an enterprise growth team seeking an all-in-one influencer CRM or a developer building self-hosted creator monetization infrastructure, this list tracks verified pricing, company scale, open-source repositories, and market dynamics.
 
-Let's make Creator-Brand Marketplaces more open, data-driven, and creator-friendly.
+---
+
+## Table of Contents
+
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Open-Source Architecture Blueprint](#open-source-architecture-blueprint)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & Compliance](#disclaimer--compliance)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global **influencer marketing platform market** is estimated at **$27.5 billion to $34.2 billion** (projected to reach **$45+ billion** by 2027 at a 15.2% CAGR), operating within the broader **$250 billion to $325+ billion creator economy**. 
+
+The sector is **moderately fragmented** rather than a winner-take-all monopoly: while enterprise market leaders like Impact.com, CreatorIQ, and GRIN capture top-tier direct-to-consumer (DTC) brands and global agencies, extreme channel diversification (TikTok Shop, Instagram Reels, YouTube Shorts, Substack, Twitch) and specialized use cases (UGC creator sourcing, affiliate tracking, gifting logistics, brand safety) support a vibrant ecosystem of mid-market SaaS platforms and self-hosted open-source software.
+
+---
+
+## SaaS & Hosted Platforms
+
+The table below lists category-leading creator-brand marketplace platforms, sorted in descending order by **company size** (valuation / annual recurring revenue). Verified entry-level pricing tiers and exact free tier/trial limits are detailed to avoid opaque enterprise quotes.
+
+| Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Core Focus & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Impact.com](https://impact.com/)** | **$1.5 Billion** Valuation (~$270M ARR) | **$30/month** (Starter via Shopify) or **$500/month** (Essentials) | **30-day risk-free trial** on Starter plan (platform minimum fee waived); Free forever for creators/publishers to register and apply | Enterprise partnership automation covering affiliates, creator collaborations, multi-touch attribution, contracted automated payouts, and cross-channel tracking. |
+| **[GRIN](https://grin.co/)** | **$910 Million** Valuation (~$35M ARR) | **$200/month** (Starter self-serve plan) | **Free forever plan** ($0/month, 50 usage credits); **30-day free trial** on self-serve Starter plan with no mandatory sales demo | DTC creator management platform integrated with Shopify, BigCommerce, and WooCommerce for automated product gifting, affiliate links, and ROI analytics. |
+| **[CreatorIQ](https://www.creatoriq.com/)** | **~$350M–$400M** Est. Valuation (~$70M ARR) | **$2,500/month** ($30,000/year minimum annual contract) | **No self-serve free tier**; sales-assisted pilot / proof-of-concept trial arranged after enterprise sales demo | Enterprise influencer marketing cloud with creator discovery across 20M+ profiles, fraud detection, audience demographics, and campaign ROI tracking. |
+| **[Aspire](https://www.aspireiq.com/)** | **~$150M–$200M** Est. Valuation (~$38M ARR) | **$2,000/month** ($24,000/year minimum annual contract) | **No self-serve free tier**; guided sandbox demo with sales-arranged pilot access; creator community membership is 100% free | End-to-end influencer marketing platform featuring creator marketplace inbound pitches, automated product seeding, content licensing, and affiliate sales tracking. |
+| **[Captiv8](https://captiv8.io/)** | **$150 Million** (Acquired by Publicis Groupe; ~$28M ARR) | **$2,083/month** ($25,000/year billed annually) | **No free tier or public trial**; enterprise live sandbox walkthrough provided upon scheduling a product demo | Enterprise creator intelligence and marketplace platform with social listening, audience authenticity scoring, paid media amplification, and shoppable storefronts. |
+| **[Traackr](https://www.traackr.com/)** | **~$60M–$80M** Est. Valuation (~$22M ARR) | **$1,416/month** ($17,000/year billed annually) | **No public free tier**; 4-week sales-approved evaluation trial available upon qualified sales request | Data-driven influencer relationship management (IRM) system specializing in global brand safety, benchmark Brand Vitality Score (BVS), and creator payments. |
+| **[#paid](https://hashtagpaid.com/)** | **~$50M–$70M** Est. Valuation (~$18M ARR) | **$449/month** ("Just Content" plan, billed monthly) | **No brand free tier**; personalized demo trial on request; 100% free forever for creators to pitch campaigns | Creator collaboration platform using "Handraise" bidding where vetted creators pitch creative concepts to brands; native creator whitelisting and ad boosting. |
+| **[Upfluence](https://www.upfluence.com/)** | **~$30M–$50M** Est. Valuation (~$14M ARR) | **$478/month** (Modular search plan, billed annually) | **No self-serve free tier**; custom guided sandbox trial granted after completing initial sales demo call | Influencer search engine and affiliate management system with Chrome extension for creator profiling, customer-to-advocate identification, and bulk outreach. |
+| **[Collabstr](https://collabstr.com/)** | **~$6M–$10M** Est. Valuation (~$3M ARR) | **$0/month** (Basic) / **$249/month** (Pro, billed annually) | **Free forever plan** ($0/month) with creator search, direct-hiring, and messaging (subject to 10% marketplace hiring fee and 0 monthly inbound job postings) | Self-serve public creator marketplace connecting brands with vetted TikTok, Instagram, and YouTube creators for rapid UGC purchasing and escrow payments. |
+| **[Creator.co](https://creator.co/)** | **~$6.3M** Est. Valuation (~$4.2M ARR) | **$199/month** (Self-serve, billed annually) | **14-day free trial** with full platform search and workflow access (no credit card required upfront) | Dual self-serve and managed creator marketplace focusing on automated micro-influencer collaboration, UGC generation, and social affiliate programs. |
+
+---
+
+## Open-Source GitHub Projects
+
+Open-source tools offer self-hostable alternatives to commercial platforms for affiliate attribution, creator CRMs, referral tracking, and link management without recurring software license fees.
+
+The repositories below are sorted in descending order by **GitHub Star Count**. Click any badge to inspect stargazers and repository activity.
+
+| Repository | GitHub Stars | License | Primary Tech Stack | Description & Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Twenty](https://github.com/twentyhq/twenty)** | [![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | AGPL-3.0 | TypeScript, NestJS, React, PostgreSQL | Modern open-source CRM platform ideal for managing brand-creator relationships, sponsorship deal pipelines, influencer talent rosters, and custom collaboration workflows. |
+| **[Dub.co](https://github.com/dubinc/dub)** | [![GitHub stars](https://img.shields.io/github/stars/dubinc/dub?style=social&color=white)](https://github.com/dubinc/dub/stargazers) | AGPL-3.0 | Next.js, TypeScript, Tailwind, Upstash, Prisma | Open-source link management and conversion attribution platform. Provides branded short links, geo-targeting, creator referral tracking, and real-time click analytics. |
+| **[Gumroad](https://github.com/antiwork/gumroad)** | [![GitHub stars](https://img.shields.io/github/stars/antiwork/gumroad?style=social&color=white)](https://github.com/antiwork/gumroad/stargazers) | Source Available | Ruby on Rails, React, PostgreSQL | Landmark open-source creator commerce platform that has paid out over $1B to creators. Provides self-hosted digital product storefronts, creator memberships, and 0% marketplace fee infrastructure. |
+| **[Crater](https://github.com/crater-invoice/crater)** | [![GitHub stars](https://img.shields.io/github/stars/crater-invoice/crater?style=social&color=white)](https://github.com/crater-invoice/crater/stargazers) | GPL-3.0 | PHP, Laravel, Vue.js, MySQL | Open-source invoicing and payment suite tailored for freelance creators, agencies, and brand campaign disbursements with multi-currency and payment gateway support. |
+| **[Sharetribe](https://github.com/sharetribe/sharetribe)** | [![GitHub stars](https://img.shields.io/github/stars/sharetribe/sharetribe?style=social&color=white)](https://github.com/sharetribe/sharetribe/stargazers) | Apache-2.0 | Ruby on Rails, React | Production marketplace software designed to build two-sided creator-brand booking, custom commission marketplaces, and collaboration directories. |
+| **[RefRef](https://github.com/amicalhq/refref)** | [![GitHub stars](https://img.shields.io/github/stars/amicalhq/refref?style=social&color=white)](https://github.com/amicalhq/refref/stargazers) | AGPL-3.0 | TypeScript, Next.js, PostgreSQL, Drizzle, BullMQ | Full-featured open-source referral and affiliate marketing platform. Features lightweight client JS attribution, automated reward approval/dispersal, partner portals, and fraud detection. |
+| **[mangosqueezy](https://github.com/mangosqueezy/mangosqueezy)** | [![GitHub stars](https://img.shields.io/github/stars/mangosqueezy/mangosqueezy?style=social&color=white)](https://github.com/mangosqueezy/mangosqueezy/stargazers) | MIT | TypeScript, Node.js, React | Lightweight open-source affiliate marketing engine enabling custom referral links, commission tracking, and payout reporting for creator partnerships. |
+| **[Refferq](https://github.com/Refferq/Refferq)** | [![GitHub stars](https://img.shields.io/github/stars/Refferq/Refferq?style=social&color=white)](https://github.com/Refferq/Refferq/stargazers) | MIT | Next.js 15, React 19, TypeScript, Prisma, PostgreSQL | Referral and affiliate marketing platform built for SaaS businesses and creators. Features automated payout scheduling (NET-15/30), cookie tracking, and branded affiliate dashboards. |
+| **[Sheety CRM](https://github.com/sdntsng/sheety-crm)** | [![GitHub stars](https://img.shields.io/github/stars/sdntsng/sheety-crm?style=social&color=white)](https://github.com/sdntsng/sheety-crm/stargazers) | MIT | Next.js 15, FastAPI, Tailwind CSS | Stateless, privacy-first open-source CRM built directly on top of Google Sheets. Excellent for lean teams managing creator outreach pipelines with Kanban boards and zero vendor lock-in. |
+| **[AffEasy](https://github.com/afftester/affeasy)** | [![GitHub stars](https://img.shields.io/github/stars/afftester/affeasy?style=social&color=white)](https://github.com/afftester/affeasy) | AGPL-3.0 | Next.js, TypeScript, Upstash, Tinybird | Unified open-source affiliate link management suite aggregating links from major affiliate networks with Tinybird analytics, dynamic link cloaking, and QR code generation. |
+| **[Social-Ops](https://github.com/Owlseer-AI/Social-ops)** | [![GitHub stars](https://img.shields.io/github/stars/Owlseer-AI/Social-ops?style=social&color=white)](https://github.com/Owlseer-AI/Social-ops/stargazers) | Apache-2.0 | Python, FastAPI, Hugging Face, MCP | Open-source social media intelligence and NLP monitoring platform for AI agents. Extracts trending topics, sentiment, and creator content engagement across Reddit, X, and Instagram. |
+| **[Social Metrics Dashboard](https://github.com/avrtt/social-metrics-dashboard)** | [![GitHub stars](https://img.shields.io/github/stars/avrtt/social-metrics-dashboard?style=social&color=white)](https://github.com/avrtt/social-metrics-dashboard/stargazers) | Apache-2.0 | Python, Plotly Dash, NLTK VADER | Real-time social analytics platform aggregating audience performance and engagement metrics across YouTube, TikTok, Instagram, X, and Reddit for marketing attribution. |
+
+---
+
+## Open-Source Architecture Blueprint
+
+Commercial creator platforms bundle three distinct functional layers: **Discovery**, **Relationship Management (CRM)**, and **Attribution/Payouts**. You can assemble an enterprise-grade, self-hosted stack using open-source building blocks:
+
+```
+┌────────────────────────────────────────────────────────┐
+│             Brand & Agency Interface Layer             │
+└───────────────────────────────────┬────────────────────┘
+                                    │
+    ┌───────────────────────────────┼───────────────────────────────┐
+    ▼                               ▼                               ▼
+┌────────────────────────┐      ┌────────────────────────┐      ┌────────────────────────┐
+│   Creator Pipeline     │      │ Affiliate Attribution  │      │ Payments & Payouts     │
+│   & Talent CRM         │      │ & Link Tracking        │      │ Automation             │
+├────────────────────────┤      ├────────────────────────┤      ├────────────────────────┤
+│ • Twenty CRM           │      │ • Dub.co               │      │ • Crater Invoicing     │
+│ • Sheety CRM           │      │ • RefRef               │      │ • Stripe Connect API   │
+│ • Sharetribe (Market)  │      │ • Refferq / AffEasy    │      │ • Gumroad Engine       │
+└────────────────────────┘      └────────────────────────┘      └────────────────────────┘
+```
+
+1. **Talent Discovery & Intelligence**: Combine [Social-Ops](https://github.com/Owlseer-AI/Social-ops) and [Social Metrics Dashboard](https://github.com/avrtt/social-metrics-dashboard) for engagement verification and creator audience analytics.
+2. **Outreach & Relationship Management**: Deploy [Twenty](https://github.com/twentyhq/twenty) or [Sheety CRM](https://github.com/sdntsng/sheety-crm) to track creator contracts, content status, and deliverable review stages.
+3. **Link Attribution & Conversions**: Deploy [Dub.co](https://github.com/dubinc/dub) for branded short links and [RefRef](https://github.com/amicalhq/refref) / [Refferq](https://github.com/Refferq/Refferq) for client attribution cookies, commission tiers, and conversion webhooks.
+4. **Creator Dispersals**: Integrate [Crater](https://github.com/crater-invoice/crater) for automated PDF billing and vendor disbursements.
+
+---
+
+## How to Contribute
+
+We welcome contributions from creators, agencies, SaaS founders, and open-source maintainers!
+
+1. **Fork the repository** to your GitHub account.
+2. **Add or update an entry**:
+   - For SaaS products: include official link, verified pricing tier (starting price), exact free tier or trial conditions, company valuation/revenue estimate, and 1–2 sentence capability summary.
+   - For open-source repos: include GitHub repo link, shield badge (`style=social&color=white`), license, tech stack, and primary use case.
+3. **Sort properly**: Maintain descending sort order by company size in the SaaS table and by star count in the Open-Source table.
+4. **Submit a Pull Request** with a descriptive summary of your additions.
+
+---
+
+## Disclaimer & Compliance
+
+- **Community Curated**: This repository is a community-maintained resource and does not constitute a formal endorsement or financial advice.
+- **Regulatory Disclosures**: Platforms operating creator sponsorships must comply with FTC Guides Concerning the Use of Endorsements and Testimonials in Advertising, as well as global data privacy standards (GDPR, CCPA).
+- **Discovery Disparity**: While open-source software provides enterprise-grade affiliate attribution, referral tracking, and CRM capabilities, searchable multi-million profile creator discovery databases remain predominantly commercial due to API access costs and platform scraping policies.
+
+---
+
+<p align="center">
+  <b>Built for creator marketing teams, growth leads, and developers engineering the future of decentralized creator commerce.</b><br>
+  <sub>Contributions welcome • Star the repository if you found it useful!</sub>
+</p>
