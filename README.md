@@ -68,7 +68,7 @@ The table below lists category-leading creator-brand marketplace platforms, sort
 
 Open-source tools offer self-hostable alternatives to commercial platforms for affiliate attribution, creator CRMs, referral tracking, and link management without recurring software license fees 🔓.
 
-The repositories below are sorted in descending order by **GitHub Stars_Count**. Click any badge to inspect stargazers and repository activity ⭐.
+The repositories below are sorted in descending order by **GitHub_Stars_Count**. Click any badge to inspect stargazers and repository activity ⭐.
 
 | 📦 Repository | ⭐ GitHub_Stars | 📄 License | 🛠️ Primary Tech Stack | 💡 Description & Use Case |
 | :--- | :--- | :--- | :--- | :--- |
